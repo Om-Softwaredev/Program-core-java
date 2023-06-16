@@ -1,0 +1,26 @@
+//Method Overloading
+//return type has no role to play,it is only methods name and parameters
+class Calculator3{
+	
+	
+	float add(int a,float b) {
+		return a+b;
+	}
+	
+	float add(float a,float b) {
+		return a+b;
+	}
+	
+	
+}
+public class LaunchMOCS2 {
+
+	public static void main(String[] args) {
+		Calculator3 calc = new Calculator3();
+		int a=10,b=20;
+		
+		System.out.println(calc.add(a, b));
+		
+	}
+
+}

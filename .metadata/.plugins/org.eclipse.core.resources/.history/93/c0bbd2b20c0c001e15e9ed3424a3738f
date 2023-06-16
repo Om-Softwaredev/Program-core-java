@@ -1,0 +1,16 @@
+//Blue Print of the class called Student
+class Student{
+	int sid;
+	String sname;
+	
+	void playCricket() {
+		System.out.println("Student is playing cricket");
+	}
+	void sleep() {
+		System.out.println("Student is Sleeping");
+	}
+}
+
+public class Test {
+
+}

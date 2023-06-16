@@ -1,0 +1,45 @@
+class Calculator1{
+	//int a,b,c;
+	int res;
+//	void add() {
+//		a=10;
+//		b=20;
+//		c=a+b;
+//		System.out.println(c);
+//	}
+	
+//	void add(int a, int b) {
+//		res=a+b;
+//		System.out.println(res);
+//	}
+	
+//	int add() {
+//		a=10;
+//		b=20;
+//		res=a+b;
+//		return res;
+//	}
+	
+	int add(int a,int b){
+		res=a+b;
+		return res;
+	}
+}
+
+public class LaunchCalc1 {
+
+	public static void main(String[] args) {
+		Calculator1 calc = new Calculator1();
+		
+//		calc.add();
+		
+//		calc.add(10,20);
+		
+//		int c=calc.add();
+//		System.out.println(c);
+		
+		int c=calc.add(10,20);
+		System.out.println(c);
+	}
+
+}

@@ -1,0 +1,17 @@
+//Method Overloading
+
+class Calculator1{
+	int add(int a,int b){
+		return a+b;
+	}
+	
+	
+}
+public class LaunchMO {
+
+	public static void main(String[] args) {
+		Calculator1 calc = new Calculator1();
+
+	}
+
+}
