@@ -1,0 +1,13 @@
+
+public class Launch7 {
+
+	public static void main(String[] args) {
+//		Array iteration using for each loop
+		int[] arr= {5,8,5,6,8};
+		for (int i : arr) {
+			System.out.println(i+" ");
+		}
+
+	}
+
+}
