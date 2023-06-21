@@ -1,0 +1,16 @@
+
+public class Launch9 {
+
+	public static void main(String[] args) {
+		int[] arr= {10,20,70,86,30,99,40,98};
+		int max=arr[0];
+		for (int i = 1; i < arr.length; i++) {
+			if(max<arr[i]) {
+				max=arr[i];
+			}
+		}
+		System.out.println(sum);
+
+	}
+
+}
